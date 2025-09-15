@@ -9,3 +9,8 @@ CREATE TABLE artistas (
     musica_mais_ouvida VARCHAR(50),
     ativo BOOLEAN DEFAULT TRUE 
 );
+
+INSERT INTO artistas(nome, tipo, membros, genero_musical, pais_origem, ano_inicio, musica_mais_ouvida, ativo)
+VALUES 
+('Travis Scott', 'Solo', 1, 'Trap/Rap', 'Estados Unidos', 2013, 'goosebumps', TRUE)
+;
