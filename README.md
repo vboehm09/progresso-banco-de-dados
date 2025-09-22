@@ -53,3 +53,5 @@ VALUES
 ('TestAccount2', 'test2@email.com', 0, '2024-03-18'),
 ('AdminTest', 'admin@email.com', 0, '2024-03-20');
 ```
+
+vou remover os produtos com menos de 70 itens no estoque e com preco menor que 70
